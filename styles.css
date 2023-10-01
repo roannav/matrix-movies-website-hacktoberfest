@@ -1,0 +1,81 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #000000;
+  --grey-dark: #333333;
+  --white: #ffffff;
+  --padding-s: 10px;
+  --padding-m: 16px;
+}
+
+section {
+  margin: 1em;
+  padding: 1em;
+  outline: 1px solid green;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+/* Section labels */
+h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 1.5rem;
+  padding-top: 10px;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #00ace9;
+  margin-bottom: -0.4em;
+  /* outline: 1px solid blue; */
+}
+
+img {
+  border-radius: 5px;
+}
+
+a {
+  color: white;
+}
+
+@media (min-width: 760px) {
+  /* changes for ipad/tablet sizes */
+  h1 {
+    font-size: 4.6rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+
+  h5 {
+    font-size: 2.3rem;
+    padding-top: 10px;
+  }
+
+  p, a {
+    font-size: 1.5rem;
+  }
+}
+
+.screen {
+  background-color: var(--grey-dark);
+  color: white;
+  border: 1px none;
+  width: 100%;
+  position: relative;
+  max-width: 70em;
+  margin: auto;
+  padding: 1em var(--padding-m);
+  /* outline: 1px solid red; */
+}
