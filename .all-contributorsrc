@@ -14,7 +14,10 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/11859151?v=4",
       "profile": "http://roannav.com",
       "contributions": [
-        "code"
+        "code",
+        "audio",
+        "a11y",
+        "content"
       ]
     }
   ]
