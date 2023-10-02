@@ -1,1 +1,6 @@
+# editor specific files
+.vscode/
+.tws
+
+# misc
 temp/
