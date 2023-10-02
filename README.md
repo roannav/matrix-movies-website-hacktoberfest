@@ -4,7 +4,7 @@
 
 This repo is a fan website dedicated to The Matrix movies.  Seeking contributions from anyone wanting to participate in  Hacktoberfest 2023.
 
-<img src="img/The-Matrix.jpg" alt="The Matrix characters" width="100%"/>
+<img src="img/readme/The-Matrix.jpg" alt="The Matrix characters" width="100%"/>
 
 # The Matrix Movies Website, a HacktoberFest Project for Beginners 🕶️
 
@@ -31,7 +31,7 @@ Let's build a website to celebrate The Matrix movie series.  Join the revolution
 
 ## Thanks in advance for your help! 😎
 
-<img src="img/hacktoberfest-2023.jpeg" alt="hacktoberfest 2023" width="100%"/>
+<img src="img/readme/hacktoberfest-2023.jpeg" alt="hacktoberfest 2023" width="100%"/>
 
 # Hacktoberfest Summary
 
