@@ -1,4 +1,7 @@
 # matrix-movies-website-hacktoberfest
+[![All Contributors](https://img.shields.io/github/all-contributors/roannav/matrix-movies-website-hacktoberfest?color=ee8449&style=flat-square)](#contributors)
+
+
 This repo is a fan website dedicated to The Matrix movies.  Seeking contributions from anyone wanting to participate in  Hacktoberfest 2023.
 
 <img src="img/The-Matrix.jpg" alt="The Matrix characters" width="100%"/>
@@ -36,6 +39,16 @@ Hacktoberfest is an event on GitHub or GitLab that encourages everyone to partic
 
 For more info:  [hacktoberfest.com](https://hacktoberfest.com/)
 
+# Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 # License
 
