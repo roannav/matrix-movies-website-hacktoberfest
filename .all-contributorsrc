@@ -1,4 +1,21 @@
 {
   "projectName": "matrix-movies-website-hacktoberfest",
-  "projectOwner": "roannav"
+  "projectOwner": "roannav",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "roannav",
+      "name": "Roanna Victorio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11859151?v=4",
+      "profile": "http://roannav.com",
+      "contributions": [
+        "code"
+      ]
+    }
+  ]
 }
