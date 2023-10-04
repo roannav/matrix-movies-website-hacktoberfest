@@ -103,6 +103,7 @@ For more info:  [hacktoberfest.com](https://hacktoberfest.com/)
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Naman73598"><img src="https://avatars.githubusercontent.com/u/78019442?v=4?s=100" width="100px;" alt="Naman Agrahari"/><br /><sub><b>Naman Agrahari</b></sub></a><br /><a href="#code-Naman73598" title="Code">💻</a> <a href="#content-Naman73598" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/barkhayadav12"><img src="https://avatars.githubusercontent.com/u/143165059?v=4?s=100" width="100px;" alt="barkhayadav12"/><br /><sub><b>barkhayadav12</b></sub></a><br /><a href="#code-barkhayadav12" title="Code">💻</a> <a href="#content-barkhayadav12" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/karansingh1820"><img src="https://avatars.githubusercontent.com/u/92674689?v=4?s=100" width="100px;" alt="Karan Singh"/><br /><sub><b>Karan Singh</b></sub></a><br /><a href="#code-karansingh1820" title="Code">💻</a> <a href="#content-karansingh1820" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Aadhithya-R-P"><img src="https://avatars.githubusercontent.com/u/96223165?v=4?s=100" width="100px;" alt="Aadhithya R P"/><br /><sub><b>Aadhithya R P</b></sub></a><br /><a href="#code-Aadhithya-R-P" title="Code">💻</a> <a href="#content-Aadhithya-R-P" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
