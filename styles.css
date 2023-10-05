@@ -51,7 +51,7 @@ img {
 }
 
 .character img {
-  max-height: 150px;
+  height: 350px;
   max-width: 100%;
 }
 
