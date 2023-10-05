@@ -15,7 +15,7 @@
 }
 
 section {
-  margin: 1em;
+  margin: 1em 0;
   padding: 1em;
   outline: 1px solid green;
 }
@@ -34,7 +34,7 @@ h3 {
 h4 {
   font-size: 1.7rem;
   background: green;
-  padding: 0.5em;
+  padding: 0.3em;
 }
 
 h5 {
@@ -50,9 +50,10 @@ img {
   border-radius: 5px;
 }
 
-.character img {
-  height: 350px;
-  max-width: 100%;
+@media (max-width: 760px) {
+  .character img {
+    width: 100%;
+  }
 }
 
 a {
@@ -71,8 +72,8 @@ a {
 
   /* Character Names */
   h4 {
-    font-size: 2.5rem;
-    padding: 0.5em;
+    font-size: 2.3rem;
+    padding: 0.3em;
   }
 
   h5 {
@@ -81,7 +82,8 @@ a {
   }
 
   .character img {
-    max-height: 300px;
+    height: 350px;
+    max-width: 100%;
   }
 
   p,
@@ -100,4 +102,8 @@ a {
   margin: auto;
   padding: 1em var(--padding-m);
   /* outline: 1px solid red; */
+}
+
+.character {
+  margin: 1.5em 0;
 }
