@@ -107,3 +107,29 @@ a {
 .character {
   margin: 1.5em 0;
 }
+
+/**********************************************************************
+*
+* Accordion styles
+*
+**********************************************************************/
+
+.collapsible {
+  cursor: pointer;
+}
+
+.active, .collapsible:hover {
+  background-color: #4CAF50;
+}
+
+.content {
+  padding: 0 1em;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #555;
+}
+
+.content p {
+  padding: 1em;
+}
