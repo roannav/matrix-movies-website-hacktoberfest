@@ -5,6 +5,9 @@
 *::after {
   box-sizing: border-box;
 }
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
 
 :root {
   --black: #000000;
@@ -20,14 +23,26 @@ section {
   outline: 1px solid green;
 }
 
-h1 {
-  font-size: 3rem;
+.screen h1 {
+  font-size: 3.7rem;
+  font-family: 'Arvo', serif;
+  text-align: center;
+  padding: 10px;
+  line-height: 60px;
+  word-spacing: 10px;
+  text-shadow: 3px 0 #08931f;
+}
+
+.screen h6{
+  font-size: 1.5rem;
+  margin: 5px;
 }
 
 /* Section labels */
 h3 {
   font-size: 2rem;
   font-weight: 400;
+  margin-bottom: 10px;
 }
 
 /* Character Names */
@@ -47,7 +62,14 @@ h5 {
 }
 
 img {
-  border-radius: 5px;
+  border-radius: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height:400px;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%;
+  display: block;
 }
 
 @media (max-width: 760px) {
@@ -67,7 +89,8 @@ a {
   }
 
   h3 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    text-align: center;
   }
 
   /* Character Names */
@@ -88,7 +111,9 @@ a {
 
   p,
   a {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    padding: 5px;
+    line-height: 25px;
   }
 }
 
