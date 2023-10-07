@@ -17,6 +17,10 @@ body{
   --padding-m: 16px;
 }
 
+header {
+  cursor: pointer;
+}
+
 section {
   margin: 1em 0;
   padding: 1em;
