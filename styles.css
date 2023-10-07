@@ -76,6 +76,12 @@ img {
   display: block;
 }
 
+.btn-infos {
+	background-color: #018307;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
 @media (max-width: 760px) {
   .character img {
     width: 100%;
@@ -118,6 +124,7 @@ a {
     font-size: 1.2rem;
     padding: 5px;
     line-height: 25px;
+	margin-bottom: 20px;
   }
 }
 
