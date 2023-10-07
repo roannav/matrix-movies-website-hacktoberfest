@@ -106,6 +106,9 @@ For more info:  [hacktoberfest.com](https://hacktoberfest.com/)
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Aadhithya-R-P"><img src="https://avatars.githubusercontent.com/u/96223165?v=4?s=100" width="100px;" alt="Aadhithya R P"/><br /><sub><b>Aadhithya R P</b></sub></a><br /><a href="#code-Aadhithya-R-P" title="Code">💻</a> <a href="#content-Aadhithya-R-P" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/charmee123"><img src="https://avatars.githubusercontent.com/u/92216225?v=4?s=100" width="100px;" alt="charmee123"/><br /><sub><b>charmee123</b></sub></a><br /><a href="#code-charmee123" title="Code">💻</a> <a href="#design-charmee123" title="Design">🎨</a> <a href="#ideas-charmee123" title="Ideas, Planning, & Feedback">🤔</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://anasajaanan.me/"><img src="https://avatars.githubusercontent.com/u/114141528?v=4?s=100" width="100px;" alt="Anas Ajaanan"/><br /><sub><b>Anas Ajaanan</b></sub></a><br /><a href="#code-anassajaanan" title="Code">💻</a> <a href="#design-anassajaanan" title="Design">🎨</a> <a href="#ideas-anassajaanan" title="Ideas, Planning, & Feedback">🤔</a></td>
+    </tr>
   </tbody>
 </table>
 
