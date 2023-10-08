@@ -21,6 +21,20 @@ header {
   cursor: pointer;
 }
 
+.note-header{
+  background-color: aliceblue;
+  color: #000000;
+  padding: 10px 7px;
+}
+
+.note-header a{
+  color: blue;
+}
+
+.note-header a:hover{
+  color: #005cb7;
+}
+
 section {
   margin: 1em 0;
   padding: 1em;
@@ -161,4 +175,19 @@ a {
 
 .content p {
   padding: 1em;
+}
+
+
+.note-footer{
+  background-color: #00000050;
+  color: white;
+  padding: 10px 5px;
+}
+
+.note-footer a{
+  color: #4CAF50;
+}
+
+.note-footer a:hover{
+  color: white;
 }
