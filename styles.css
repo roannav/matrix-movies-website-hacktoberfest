@@ -198,3 +198,24 @@ a {
 .note-footer a:hover{
   color: white;
 }
+.navbar-container {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+  background-color: #333;
+  color: white;
+  padding: 10px; 
+  list-style: none;
+
+}
+.navbar-container li {
+  padding: 0 10px; 
+}
+.navbar-container a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+.navbar-container a:hover {
+  color: #ccc;
+}
