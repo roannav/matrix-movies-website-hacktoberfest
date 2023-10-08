@@ -108,6 +108,7 @@ For more info:  [hacktoberfest.com](https://hacktoberfest.com/)
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://anasajaanan.me/"><img src="https://avatars.githubusercontent.com/u/114141528?v=4?s=100" width="100px;" alt="Anas Ajaanan"/><br /><sub><b>Anas Ajaanan</b></sub></a><br /><a href="#code-anassajaanan" title="Code">💻</a> <a href="#design-anassajaanan" title="Design">🎨</a> <a href="#ideas-anassajaanan" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/person"><img src="https://avatars.githubusercontent.com/u/529689?v=4?s=100" width="100px;" alt="person"/><br /><sub><b>person</b></sub></a><br /><a href="#ideas-person" title="Ideas, Planning, & Feedback">🤔</a> <a href="#doc-person" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
