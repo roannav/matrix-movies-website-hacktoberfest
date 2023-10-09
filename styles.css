@@ -5,8 +5,9 @@
 *::after {
   box-sizing: border-box;
 }
-body{
-  font-family: 'Ubuntu', sans-serif;
+
+body {
+  font-family: "Ubuntu", sans-serif;
 }
 
 :root {
@@ -21,17 +22,17 @@ header {
   cursor: pointer;
 }
 
-.note-header{
+.note-header {
   background-color: aliceblue;
   color: #000000;
   padding: 10px 7px;
 }
 
-.note-header a{
+.note-header a {
   color: blue;
 }
 
-.note-header a:hover{
+.note-header a:hover {
   color: #005cb7;
 }
 
@@ -43,7 +44,7 @@ section {
 
 .screen h1 {
   font-size: 3.7rem;
-  font-family: 'Arvo', serif;
+  font-family: "Arvo", serif;
   text-align: center;
   padding: 10px;
   line-height: 60px;
@@ -51,7 +52,7 @@ section {
   text-shadow: 3px 0 #08931f;
 }
 
-.screen h6{
+.screen h6 {
   font-size: 1.5rem;
   margin: 5px;
 }
@@ -83,23 +84,16 @@ img {
   border-radius: 5%;
   margin-top: 20px;
   margin-bottom: 20px;
-  height:400px;
-  margin-left:auto;
-  margin-right:auto;
-  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
   display: block;
 }
 
 .btn-infos {
-	background-color: #018307;
-	border-radius: 10px;
-	text-decoration: none;
-}
-
-@media (max-width: 760px) {
-  .character img {
-    width: 100%;
-  }
+  background-color: #018307;
+  border-radius: 10px;
+  text-decoration: none;
 }
 
 a {
@@ -129,8 +123,10 @@ a {
   }
 
   .character img {
-    height: 350px;
-    max-width: 100%;
+    /* make images shrink and grow responsively,
+       but once at it's natural width, it stops growing
+    */
+    max-width: 50%;
   }
 
   p,
@@ -138,7 +134,7 @@ a {
     font-size: 1.2rem;
     padding: 5px;
     line-height: 25px;
-	margin-bottom: 20px;
+    margin-bottom: 20px;
   }
 }
 
@@ -168,8 +164,9 @@ a {
   cursor: pointer;
 }
 
-.active, .collapsible:hover {
-  background-color: #4CAF50;
+.active,
+.collapsible:hover {
+  background-color: #4caf50;
 }
 
 .content {
@@ -184,45 +181,66 @@ a {
   padding: 1em;
 }
 
+/**********************************************************************
+*
+* Footer Note styles
+*
+**********************************************************************/
 
-.note-footer{
+.note-footer {
   background-color: #00000050;
   color: white;
   padding: 10px 5px;
 }
 
-.note-footer a{
-  color: #4CAF50;
+.note-footer a {
+  color: #4caf50;
 }
 
-.note-footer a:hover{
+.note-footer a:hover {
   color: white;
 }
+
+/**********************************************************************
+*
+* Navbar styles
+*
+**********************************************************************/
+
 .navbar-container {
   display: flex;
-  justify-content: space-around; 
-  align-items: center; 
+  justify-content: space-around;
+  align-items: center;
   background-color: #333;
   color: white;
-  padding: 10px; 
+  padding: 10px;
   list-style: none;
+}
 
-}
 .navbar-container li {
-  padding: 0 10px; 
+  padding: 0 10px;
 }
+
 .navbar-container a {
   text-decoration: none;
   color: white;
   transition: color 0.3s;
 }
+
 .navbar-container a:hover {
   color: #ccc;
 }
 
-html{
+/**********************************************************************
+*
+* Back to Top Button styles
+*
+**********************************************************************/
+
+html {
   scroll-behavior: smooth;
 }
+
 #backToTop {
   display: none; 
   position: fixed; 
@@ -242,3 +260,4 @@ html{
 #backToTop:hover {
   background-color: #555; 
 }
+
