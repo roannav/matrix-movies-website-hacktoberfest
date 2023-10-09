@@ -3,149 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Matrix Movies Website, a Hacktoberfest Project for Beginners</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Ubuntu&display=swap" rel="stylesheet">
+    <title>
+      The Matrix Movies Website, a Hacktoberfest Project for Beginners
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <script src="topbutton.js" async></script>
   </head>
-  
+
   <body>
     <div class="screen">
-      <header>
-        <h1>THE MATRIX MOVIES WEBSITE</h1>
-        <!-- <h6>A Hacktoberfest Project for Beginners</h6> -->
-      </header>
-      <navbar >
-        <ul class="navbar-container" >
-          <li><a href="characters.html">Characters</a></li>
-          <li><a href="plot.html">Plot</a></li>
-          <li><a href="scenes.html">Favourite Scenes</a></li>
-          <li><a href="cast-crew.html">Cast & Crew</a></li>
-          <li><a href="reviews.html">Reviews</a></li>
-          <li><a href="games.html">Games</a></li>         
-        </ul>
-      </navbar>
+      <header id="header"><!-- js/header.js --></header>
+      <navbar id="navbar"><!-- js/navbar.js --></navbar>
 
-      <section class="characters-section">
-        <h3>Characters</h3>
-        <div class="character">
-          <h4>Name: Agent Smith</h4>
-          <img src="img/characters/agent-smith.jpg" alt="Agent Smith"/>
-          <p>AKA: Bane </p>
-          <p>Quotes: "Never send a human to do a machine's job." </p>
-		  <a class="btn-infos" href="https://en.wikipedia.org/wiki/Agent_Smith" target="_blank">More infos</a>
-        </div>  
-        <div class="character">
-          <h4>Name: Neo</h4>
-          <img src="img/characters/neo_picture.jpg" alt="Neo" />
-          <p>AKA: Thomas Anderson </p>
-          <p>Quotes: When Trinity says "Neo, no one has ever done anything like this, then Neo replies "That's why it's going to work." </p>
-		  <a class="btn-infos" href="https://en.wikipedia.org/wiki/Neo_(The_Matrix)" target="_blank">More infos</a>
-		</div>        
-        <div class="character">
-          <h4>Name: Trinity</h4>
-          <img src="img/characters/trinity.png" alt="Trinity" />
-          <p>AKA: Trinity Announces </p>
-          <p>Quotes: "The Matrix isn't real." </p>
-		  <a class="btn-infos" href="https://en.wikipedia.org/wiki/Trinity_(The_Matrix)" target="_blank">More infos</a>
-		</div>
-        <div class="character">
-          <h4>Name: Morpheus</h4>
-          <img src="img/characters/morpheus.jpg" alt="Morpheus" />
-          <p>AKA:--  </p>
-          <p>Quotes: "The Matrix is everywhere." </p>
-		  <a class="btn-infos" href="https://en.wikipedia.org/wiki/Morpheus_(The_Matrix)" target="_blank">More infos</a>
-		</div>
-        <div class="character">
-            <h4>Name: Morpheus</h4>
-            <img src="img/characters/woman_red.jpeg" alt="Morpheus" />
-            <p>AKA:--  </p>
-            <p>Quotes: "The woman in the red dress. I designed her." </p>
-			<a class="btn-infos" href="https://en.wikipedia.org/wiki/Morpheus_(The_Matrix)" target="_blank">More infos</a>
-		</div>
-        <div class="character">
-          <h4>Name: Cypher</h4>
-          <img src="img/characters/cypher.jpg" alt="Cypher" />
-          <p>AKA: The Betrayer </p>
-          <p>Quotes: "You know... for a long time, I thought I was in love with you. I used to dream about you. You're a beautiful woman, Trinity. Too bad things had to turn out this way." </p>
-		  <a class="btn-infos" href="https://matrix.fandom.com/wiki/Cypher" target="_blank">More infos</a>
-		</div>
+      <section class="home-section">
+        <!-- This image is a placeholder prototype for what will be in this section -->
+        <img src="img/home/matrix-part-E.png" alt="Matrix movie poster, video trailer, and movie credits" />
       </section>
-      <!--characters-section-->
+      <!--home-section-->
 
-      <section class="plot-section">
-        <h3>Movie Plots</h3>
-        <h4 class="collapsible">The Matrix (1999)</h4>
-        <div class="content">
-          <p>
-            Summary of Movie 1
-          </p>
-        </div>
-        <h4 class="collapsible">The Matrix Reloaded (2003)</h4>
-        <div class="content">
-          <p>
-            Summary of Movie 2
-          </p>
-        </div>
-        <h4 class="collapsible">The Matrix Revolutions (2003)</h4>
-        <div class="content">
-          <p>
-            Summary of Movie 3
-          </p>
-        </div>
-        <h4 class="collapsible">The Matrix Resurrections (2021)</h4>
-        <div class="content">
-          <p>
-            Summary of Movie 4
-          </p>
-        </div>
-      </section>
-      <!--plot-section-->
-
-      <section class="credits-section">
-        <h3>Credits</h3>
-        <ul>
-          <li>
-            Video by
-            <a
-              href="https://pixabay.com/users/christianbodhi-9869182/?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=47802"
-              >Christian Bodhi</a
-            >
-            from
-            <a
-              href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=47802"
-              >Pixabay</a
-            >
-          </li>
-          <li>
-            Sound Effect from
-            <a
-              href="https://pixabay.com/sound-effects/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=103366"
-              >Pixabay</a
-            >
-          </li>
-        </ul>
-
-        <br>
-      </section>
-      <!--credits-section-->
-
-      <footer>
-        <div class="note-footer">
-          <h6><u>Note:</u></h6>
-          &nbsp;&nbsp;Contributions from anyone to this website are welcome!  Please see the <a href="https://github.com/roannav/matrix-movies-website-hacktoberfest">[Matrix Movies Website GitHub Repo]</a>
-          <br><br>
-          &nbsp;&nbsp;This website is licensed under the terms of the MIT license.
-          <br><br>
-          &nbsp;&nbsp;By using this site, you agree to the <a href="terms-of-use.html">[Terms of Use]</a> and <a href="privacy-policy.html">[Privacy Policy]</a>
-        </div>
-      </footer>
-      <button onclick="topFunction()" id="backToTop" title="Go to top">↑</button>
-
+      <footer id="footer"><!-- js/footer.js --></footer>
     </div>
-    <script src="js/accordion.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/navbar.js"></script>
     <script src="js/topbutton.js"></script>
+    <script src="js/footer.js"></script>
   </body>
 </html>
