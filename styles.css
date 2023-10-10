@@ -136,6 +136,14 @@ a {
     line-height: 25px;
     margin-bottom: 20px;
   }
+
+
+  
+  /* favourite scenes page media queries */
+  .images{
+   justify-content: center;
+  }
+
 }
 
 .screen {
@@ -261,3 +269,48 @@ html {
   background-color: #555; 
 }
 
+
+
+/**********************************************************************
+*
+* favourite scenes page style
+*
+**********************************************************************/
+
+.scenes-container{
+  width: 100%;
+  height: 100%;
+}
+
+.scenes-heading{
+  background-color: #018307;
+  text-align: center;
+  height: 50px;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  font-size: 1.5rem;
+}
+
+.images{
+  max-width: 1080px;
+  display: flex;
+  flex-direction: row;
+column-gap: 10px;
+row-gap: 10px;
+flex-wrap: wrap;
+object-fit: cover;
+}
+
+.videos{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+column-gap: 10px;
+row-gap: 10px;
+flex-wrap: wrap;
+}
+
+.images img {
+  height: 200px;
+  width: 200px;
+}
