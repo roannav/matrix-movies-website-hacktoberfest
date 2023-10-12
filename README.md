@@ -119,6 +119,9 @@ For more information, visit [hacktoberfest.com](https://hacktoberfest.com/).
       <td align="center" valign="top" width="14.28%"><a href="http://khansado.github.io"><img src="https://avatars.githubusercontent.com/u/17513306?v=4?s=100" width="100px;" alt="Guilherme Berson"/><br /><sub><b>Guilherme Berson</b></sub></a><br /><a href="#code-KhanSado" title="Code">💻</a> <a href="#content-KhanSado" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Himanshu-Saha"><img src="https://avatars.githubusercontent.com/u/82522971?v=4?s=100" width="100px;" alt="Himanshu"/><br /><sub><b>Himanshu</b></sub></a><br /><a href="#code-Himanshu-Saha" title="Code">💻</a> <a href="#content-Himanshu-Saha" title="Content">🖋</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://ragesh.me"><img src="https://avatars.githubusercontent.com/u/84183052?v=4?s=100" width="100px;" alt="Ragesh"/><br /><sub><b>Ragesh</b></sub></a><br /><a href="#content-ezhillragesh" title="Content">🖋</a></td>
+    </tr>
   </tbody>
 </table>
 
