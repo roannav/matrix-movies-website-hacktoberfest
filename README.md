@@ -39,8 +39,6 @@ Hacktoberfest is an event on GitHub or GitLab that encourages everyone to partic
 
 For more information, visit [hacktoberfest.com](https://hacktoberfest.com/).
 
-For more info:  [hacktoberfest.com](https://hacktoberfest.com/)
-
 # Getting Started
 
 1. **Star this repository** (Click the **"Star"** button in the top right of this page).
@@ -57,6 +55,9 @@ For more info:  [hacktoberfest.com](https://hacktoberfest.com/)
 
    ```bash
    git clone git@github.com:<your-username>/matrix-movies-website-hacktoberfest.git
+   ```
+   
+   Remember to replace `<your-username>` with your GitHub username.
 
 5) **Go into your local repo directory**
 
@@ -117,9 +118,10 @@ For more info:  [hacktoberfest.com](https://hacktoberfest.com/)
   </tbody>
 </table>
 
-<!-- List of contributors with their GitHub profiles and contributions -->
-<!-- Include avatars, links, and contribution categories -->
-<!-- Update this section as more contributors join -->
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 # License
 
