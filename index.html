@@ -20,14 +20,55 @@
       <header id="header" onclick="window.location.href='index.html';">
         <!-- js/header.js -->
       </header>
-      <navbar id="navbar"><!-- js/navbar.js --></navbar>
+      <navbar id="navbar"><!-- js/navbar.js -->
+      </navbar>
+      <div class="navbar">
+    
+      </div>
 
       <section class="home-section">
-        <!-- This image is a placeholder prototype for what will be in this section -->
-        <img
-          src="img/home/matrix-part-E.png"
-          alt="Matrix movie poster, video trailer, and movie credits"
-        />
+        <!-- This image is a placeholder prototype for what will be in this section-->
+
+        <div id="movie-info">
+          <div id="poster-and-trailer-container">
+            <div id="poster-container">
+              <img id="movie-poster" src="poster.jpg" alt="Movie Poster" style="max-width: 40%;">
+            </div>
+            
+            <div id="trailer-container">
+              <!-- Add a link to the movie trailer -->
+              <iframe width="1000" height="515" src="https://www.youtube.com/watch?v=vKQi3bBA1y8&pp=ygUUbWF0cml4IG1vdmllIHRyYWlsZXI%3D" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div id="rating-container">
+            <p id="imdb-rating" align="center">IMDb Rating: 8.7</p>
+  
+            <div class="credits" align="center">
+              <p><strong>movie-description:</strong>   When a beautiful stranger leads computer hacker Neo to a forbidding underworld, 
+                he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.</p>
+              <p><strong>Directors:</strong>    Lana Wachowski, Lilly Wachowski</p>
+              <p><strong>Writers:</strong>   Lilly Wachowski, Lana Wachowski</p>
+            </div>
+          </div>
+        </div>
+
+        
+
+      <script>
+        // JavaScript for rotating posters
+        const posters = ["poster1.jpg", "poster2.jpg" ,  "poster4.jpg", "poster5.jpg", "poster6.jpg" , "poster7.jpg"]; // Add the paths to your posters
+        let currentPosterIndex = 0;
+
+        function rotatePosters() {
+            document.getElementById("movie-poster").src = posters[currentPosterIndex];
+            currentPosterIndex = (currentPosterIndex + 1) % posters.length;
+        }
+
+        // Change poster every 5 seconds
+        setInterval(rotatePosters, 5000);
+    </script>
+
       </section>
       <!--home-section-->
 

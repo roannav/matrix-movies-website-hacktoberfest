@@ -262,3 +262,64 @@ html {
   background-color: #555; 
 }
 
+/**********************************************************************
+*
+* poster and trailer
+*
+**********************************************************************/
+/* styles.css */
+/* Add some basic styles for the poster and trailer link */
+.poster {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.trailer-link {
+  display: block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+
+}
+
+/**********************************************************************
+*
+* gallery
+*
+**********************************************************************/
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.home-section,
+.photos-section {
+  padding: 20px;
+}
+
+.photo-gallery img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
