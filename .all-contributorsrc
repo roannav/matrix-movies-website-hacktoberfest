@@ -133,6 +133,16 @@
         "design",
         "ideas"
       ]
+    },
+    {
+      "login": "KhanSado",
+      "name": "Guilherme Berson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17513306?v=4",
+      "profile": "http://khansado.github.io",
+      "contributions": [
+        "code",
+        "content"
+      ]
     }
   ]
 }
