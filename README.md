@@ -122,6 +122,7 @@ For more information, visit [hacktoberfest.com](https://hacktoberfest.com/).
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="http://ragesh.me"><img src="https://avatars.githubusercontent.com/u/84183052?v=4?s=100" width="100px;" alt="Ragesh"/><br /><sub><b>Ragesh</b></sub></a><br /><a href="#content-ezhillragesh" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/om453"><img src="https://avatars.githubusercontent.com/u/116504580?v=4?s=100" width="100px;" alt="Om Patel"/><br /><sub><b>Om Patel</b></sub></a><br /><a href="#code-om453" title="Code">💻</a> <a href="#design-om453" title="Design">🎨</a> <a href="#content-om453" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/vishwajeetfate"><img src="https://avatars.githubusercontent.com/u/110755446?v=4?s=100" width="100px;" alt="vishwajeet"/><br /><sub><b>vishwajeet</b></sub></a><br /><a href="#code-vishwajeetfate" title="Code">💻</a> <a href="#content-vishwajeetfate" title="Content">🖋</a> <a href="#design-vishwajeetfate" title="Design">🎨</a> <a href="#ideas-vishwajeetfate" title="Ideas, Planning, & Feedback">🤔</a></td>
     </tr>
   </tbody>
 </table>
