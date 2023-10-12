@@ -2,7 +2,7 @@
 [![All Contributors](https://img.shields.io/github/all-contributors/roannav/matrix-movies-website-hacktoberfest?color=ee8449&style=flat-square)](#contributors)
 
 
-This repo is a fan website dedicated to The Matrix movies.  Seeking contributions from anyone wanting to participate in  Hacktoberfest 2023.
+This repository is a fan website dedicated to The Matrix movies, and we're excited to welcome contributions from anyone interested in participating in Hacktoberfest 2023.
 
 Take a look at the LIVE [Matrix Movies Website](https://roannav.github.io/matrix-movies-website-hacktoberfest/) 
 
@@ -20,7 +20,7 @@ Let's build a website to celebrate The Matrix movie series.  Join the revolution
   - Making the links glow green
   - Writing text questions for a trivia quiz
   - Creating a Discussion Board 
-  - and so on...
+  - and more...
 
 - 📢 If you have some additional thoughts on any of the issues, go ahead and 🖊 share your **comment on the issue** page.
 
@@ -33,29 +33,31 @@ Let's build a website to celebrate The Matrix movie series.  Join the revolution
 
 ## Thanks in advance for your help! 😎
 
-<img src="img/readme/hacktoberfest-2023.jpeg" alt="hacktoberfest 2023" width="100%"/>
+![Hacktoberfest 2023](img/readme/hacktoberfest-2023.jpeg)
 
 # Hacktoberfest Summary
 
-Hacktoberfest is an event on GitHub or GitLab that encourages everyone to participate in open source software development.  You are tasked with making **4 or more pull requests** during the month of October.  If your pull requests are accepted, then you win digital badges.  It's a chance to learn more about git, GitHub or GitLab, and in the case of this project, more about **web development, JavaScript, HTML, and CSS**.
+Hacktoberfest is an event on GitHub or GitLab that encourages everyone to participate in open-source software development. To complete the challenge, you need to make **four or more pull requests** during the month of October. Successful pull requests earn you digital badges and provide an opportunity to learn more about git, GitHub or GitLab, and in this project's case, web development, JavaScript, HTML, and CSS.
 
-For more info:  [hacktoberfest.com](https://hacktoberfest.com/)
+For more information, visit [hacktoberfest.com](https://hacktoberfest.com/).
 
 # Getting Started
 
-1) **Star this repository** (See top right of this page.  Click the **"Star"** button.)
+1. **Star this repository** (Click the **"Star"** button in the top right of this page).
 
-    <img src="img/readme/star-repo.png" alt="circle around Star button" width="100%"/>
+   ![Circle around Star button](img/readme/star-repo.png)
 
-2) **Fork this repository** (See top right of this page.  Click the **"Fork"** button.  On the next screen that appears, click the green **"Create fork"** button in the lower right.)
+2. **Fork this repository** (Click the **"Fork"** button in the top right of this page. On the next screen, click the green **"Create fork"** button in the lower right).
 
-    <img src="img/readme/fork-repo.png" alt="circle around Fork button" width="100%"/>
+   ![Circle around Fork button](img/readme/fork-repo.png)
 
-3) **Open a Terminal**, where you can enter command line text. For the next steps, you'll be using this terminal.
+3. **Open a Terminal**, where you can enter command-line text. For the next steps, you'll be using this terminal.
 
-4) **Clone the forked repository** down to your machine:
+4. **Clone the forked repository** to your machine:
 
-   `git clone git@github.com:<your-username>/matrix-movies-website-hacktoberfest.git`
+   ```bash
+   git clone git@github.com:<your-username>/matrix-movies-website-hacktoberfest.git
+   ```
    
    Remember to replace `<your-username>` with your GitHub username.
 
