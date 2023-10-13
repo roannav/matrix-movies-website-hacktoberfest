@@ -32,12 +32,12 @@
         <div id="movie-info">
           <div id="poster-and-trailer-container">
             <div id="poster-container">
-              <img id="movie-poster" src="poster.jpg" alt="Movie Poster" style="max-width: 40%;">
-            </div>
+              <img id="movie-poster" src="poster.jpg" alt="Movie Poster" style="width: 350px; height: 500px;">
+          </div>          
             
-            <div id="trailer-container">
+            <div id="trailer-container" align = "center">
               <!-- Add a link to the movie trailer -->
-              <iframe width="1000" height="515" src="https://www.youtube.com/watch?v=vKQi3bBA1y8&pp=ygUUbWF0cml4IG1vdmllIHRyYWlsZXI%3D" frameborder="0" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/vKQi3bBA1y8?si=A8PWjCJS4Y6rKuYe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
           </div>
 
@@ -55,19 +55,26 @@
 
         
 
-      <script>
-        // JavaScript for rotating posters
-        const posters = ["poster1.jpg", "poster2.jpg" ,  "poster4.jpg", "poster5.jpg", "poster6.jpg" , "poster7.jpg"]; // Add the paths to your posters
-        let currentPosterIndex = 0;
-
-        function rotatePosters() {
-            document.getElementById("movie-poster").src = posters[currentPosterIndex];
-            currentPosterIndex = (currentPosterIndex + 1) % posters.length;
-        }
-
-        // Change poster every 5 seconds
-        setInterval(rotatePosters, 5000);
-    </script>
+        <script>
+          // JavaScript for rotating posters
+          const posters = [
+              "./img/home/movie-poster/poster1.jpg",
+              "./img/home/movie-poster/poster2.jpg",
+              "./img/home/movie-poster/poster3.jpg",
+              "./img/home/movie-poster/poster4.jpg",
+              "./img/home/movie-poster/poster5.jpg",
+              "./img/home/movie-poster/poster6.jpg"
+          ]; // Add the paths to your posters
+          let currentPosterIndex = 0;
+      
+          function rotatePosters() {
+              document.getElementById("movie-poster").src = posters[currentPosterIndex];
+              currentPosterIndex = (currentPosterIndex + 1) % posters.length;
+          }
+      
+          // Change poster every 5 seconds
+          setInterval(rotatePosters, 5000);
+      </script>
 
       </section>
       <!--home-section-->
