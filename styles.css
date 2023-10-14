@@ -215,7 +215,7 @@ a {
 *
 **********************************************************************/
 
-.navbar-container {
+.nav .navbar-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -225,20 +225,56 @@ a {
   list-style: none;
 }
 
-.navbar-container li {
+.nav .navbar-container li {
   padding: 0 10px;
 }
 
-.navbar-container a {
+.nav .navbar-container a {
   text-decoration: none;
   color: white;
   transition: color 0.3s;
 }
 
-.navbar-container a:hover {
+.nav .navbar-container a:hover {
   color: #ccc;
 }
 
+.icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .nav .navbar-container a{display: none;}
+  .nav .icon {
+    float: left;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav.responsive {position: relative;}
+  .nav.responsive .icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .nav.responsive .navbar-container{
+    display: block;
+    background-color:#333;
+    padding-top: 17px;
+  }
+  .nav.responsive .navbar-container a{
+    float: none;
+    display: block;
+    text-align: left;
+    padding:5px;
+  }
+  .nav.responsive .navbar-container a:hover{
+    color:#333333;
+    background-color:#ccc;
+  }
+  
+}
 /**********************************************************************
 *
 * Back to Top Button styles
