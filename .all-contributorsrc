@@ -173,6 +173,28 @@
         "design",
         "content"
       ]
+    },
+    {
+      "login": "vishwajeetfate",
+      "name": "vishwajeet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/110755446?v=4",
+      "profile": "https://github.com/vishwajeetfate",
+      "contributions": [
+        "code",
+        "content",
+        "design",
+        "ideas"
+      ]
+    },
+    {
+      "login": "susanhsrestha",
+      "name": "Susan Shrestha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58846347?v=4",
+      "profile": "https://github.com/susanhsrestha",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ]
 }

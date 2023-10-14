@@ -332,19 +332,19 @@ html {
   max-width: 1080px;
   display: flex;
   flex-direction: row;
-column-gap: 10px;
-row-gap: 10px;
-flex-wrap: wrap;
-object-fit: cover;
+  column-gap: 10px;
+  row-gap: 10px;
+  flex-wrap: wrap;
+  object-fit: cover;
 }
 
 .videos{
   display: flex;
   justify-content: center;
   flex-direction: row;
-column-gap: 10px;
-row-gap: 10px;
-flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 10px;
+  flex-wrap: wrap;
 }
 
 .images img {
