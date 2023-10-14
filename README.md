@@ -126,6 +126,7 @@ For more information, visit [hacktoberfest.com](https://hacktoberfest.com/).
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/susanhsrestha"><img src="https://avatars.githubusercontent.com/u/58846347?v=4?s=100" width="100px;" alt="Susan Shrestha"/><br /><sub><b>Susan Shrestha</b></sub></a><br /><a href="#code-susanhsrestha" title="Code">💻</a> <a href="#design-susanhsrestha" title="Design">🎨</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Wafmulla"><img src="https://avatars.githubusercontent.com/u/114606506?v=4?s=100" width="100px;" alt="Wafiya Mulla"/><br /><sub><b>Wafiya Mulla</b></sub></a><br /><a href="#code-Wafmulla" title="Code">💻</a> <a href="#design-Wafmulla" title="Design">🎨</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/MrLEGENDx10"><img src="https://avatars.githubusercontent.com/u/115637298?v=4?s=100" width="100px;" alt="Damodar Yadav"/><br /><sub><b>Damodar Yadav</b></sub></a><br /><a href="#code-MrLEGENDx10" title="Code">💻</a> <a href="#design-MrLEGENDx10" title="Design">🎨</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ivanetra"><img src="https://avatars.githubusercontent.com/u/40310946?v=4?s=100" width="100px;" alt="Ivan Eka Putra"/><br /><sub><b>Ivan Eka Putra</b></sub></a><br /><a href="#code-ivanetra" title="Code">💻</a> <a href="#content-ivanetra" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
