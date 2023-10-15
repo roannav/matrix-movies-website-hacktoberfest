@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-      The Matrix Movies Website, a Hacktoberfest Project for Beginners
+      The Matrix Movies Website
     </title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,7 +34,7 @@
       <section class="home-section">
         <!-- This image is a placeholder prototype for what will be in this section-->
 
-        <div id="movie-info">
+        <div id="movie-info" class="fade-in">
           <div id="poster-and-rating-container">
             <div class="row">
               <div id="poster-container">
@@ -63,7 +63,7 @@
             </div>
           </div>
         </div>
-        <div id="videoModal" class="modal">
+        <div id="videoModal fade-in" class="modal">
           <div class="modal-content">
             <span class="close" onclick="closeVideoModal()">&times;</span>
             <iframe style="border-radius: 5%;"width="700" height="450"  src="https://www.youtube.com/embed/vKQi3bBA1y8?si=A8PWjCJS4Y6rKuYe" frameborder="0" allowfullscreen></iframe>
@@ -103,6 +103,12 @@
           var modal = document.getElementById("videoModal");
           modal.style.display = "none";
         }
+      </script>
+      <script>
+        window.addEventListener('load', function () {
+          const movieInfo = document.getElementById('movie-info');
+          movieInfo.classList.add('fade-in');
+        });
       </script>
 
       </section>
