@@ -130,6 +130,7 @@ For more information, visit [hacktoberfest.com](https://hacktoberfest.com/).
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/nishantdub37"><img src="https://avatars.githubusercontent.com/u/143426029?v=4?s=100" width="100px;" alt="Nishant Dubey"/><br /><sub><b>Nishant Dubey</b></sub></a><br /><a href="#content-nishantdub37" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://sarveshportfolio.weebly.com/"><img src="https://avatars.githubusercontent.com/u/92908500?v=4?s=100" width="100px;" alt="Sarvesh Gupta"/><br /><sub><b>Sarvesh Gupta</b></sub></a><br /><a href="#code-Sarvesh223" title="Code">💻</a> <a href="#content-Sarvesh223" title="Content">🖋</a> <a href="#design-Sarvesh223" title="Design">🎨</a> <a href="#ideas-Sarvesh223" title="Ideas, Planning, & Feedback">🤔</a></td>
     </tr>
   </tbody>
 </table>
