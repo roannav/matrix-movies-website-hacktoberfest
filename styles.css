@@ -21,9 +21,24 @@ body {
     background-size: cover;
   
 }
+/*--------------Animation-------------------------*/
+#movie-info {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+.fade-in {
+  opacity: 1;
+  animation: fadeIn 1.2s ease-in-out forwards;
+}
 
-
-
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 header {
   cursor: pointer;
@@ -415,17 +430,7 @@ html {
   flex: 1;
   margin-left: 20px;
 }
-#background-video {
-  position: fixed;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1;
-}
-#button:hover {
-  background-color: #2980b9; 
-}
+
 /*-----------------------------Modal------------------------------------------------*/
 #button {
   border: none;
