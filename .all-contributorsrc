@@ -255,6 +255,16 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "Aka-suvam",
+      "name": "Suvam Rai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/94453074?v=4",
+      "profile": "https://github.com/Aka-suvam",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ]
 }
