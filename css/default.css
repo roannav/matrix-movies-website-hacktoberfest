@@ -23,20 +23,6 @@ header {
   cursor: pointer;
 }
 
-.note-header {
-  background-color: aliceblue;
-  color: #000000;
-  padding: 10px 7px;
-}
-
-.note-header a {
-  color: blue;
-}
-
-.note-header a:hover {
-  color: #005cb7;
-}
-
 section {
   margin: 1em 0;
   padding: 1em;
@@ -91,12 +77,6 @@ img {
   display: block;
 }
 
-.btn-infos {
-  background-color: #018307;
-  border-radius: 10px;
-  text-decoration: none;
-}
-
 a {
   color: white;
 }
@@ -123,13 +103,6 @@ a {
     padding-top: 10px;
   }
 
-  .character img {
-    /* make images shrink and grow responsively,
-       but once at it's natural width, it stops growing
-    */
-    max-width: 50%;
-  }
-
   p,
   a {
     font-size: 1.2rem;
@@ -149,10 +122,6 @@ a {
   margin: auto;
   padding: 1em var(--padding-m);
   /* outline: 1px solid red; */
-}
-
-.character {
-  margin: 1.5em 0;
 }
 
 

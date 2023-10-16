@@ -1,0 +1,20 @@
+.character {
+  margin: 1.5em 0;
+}
+
+.btn-infos {
+  background-color: #018307;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+@media (min-width: 760px) {
+  /* changes for ipad/tablet sizes */
+
+  .character img {
+    /* make images shrink and grow responsively,
+       but once at it's natural width, it stops growing
+    */
+    max-width: 50%;
+  }
+}
