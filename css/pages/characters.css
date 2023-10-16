@@ -1,3 +1,10 @@
+/**********************************************************************
+*
+* Styles just for the characters.html page.
+* These styles override default.css.
+*
+**********************************************************************/
+
 .character {
   margin: 1.5em 0;
 }

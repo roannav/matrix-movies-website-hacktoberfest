@@ -1,3 +1,10 @@
+/**********************************************************************
+*
+* Styles just for the index.html page.
+* These styles override default.css.
+*
+**********************************************************************/
+
 body {
     background-image: url("../../img/background_video/matrix-background_video.gif");
     background-size: cover;

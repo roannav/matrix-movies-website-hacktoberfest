@@ -1,3 +1,10 @@
+/**********************************************************************
+*
+* Styles just for the scenes.html page.
+* These styles override default.css.
+*
+**********************************************************************/
+
 @media (min-width: 760px) {
   /* changes for ipad/tablet sizes */
   
@@ -6,12 +13,6 @@
    justify-content: center;
   }
 }
-
-/**********************************************************************
-*
-* favourite scenes page style
-*
-**********************************************************************/
 
 .scenes-container{
   width: 100%;
