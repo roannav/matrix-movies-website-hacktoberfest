@@ -1,0 +1,70 @@
+/*plot-section-heading */
+  @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+  /*plot -section-para */
+ @import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+
+/*plot-section-style */
+
+.plot-section p{
+  text-align: justify;
+  padding-left:3vw  !important;
+  padding-right: 3.3vw !important;
+}
+
+.plot-section .heading {
+  font-family: 'Young Serif', serif;
+  font-weight: 800;
+  font-size: 1.8rem;
+  padding-left:  20px;
+  letter-spacing: 1px;
+ }
+ 
+ .plot-section .para{
+  font-family: 'Bitter', serif;
+  font-weight: 400;
+  line-height: 33px;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+ }
+ .plot-section .para span {
+font-weight: 900;
+letter-spacing: 2.2px;
+/*border-bottom: 1px solid white;*/
+text-decoration: underline;
+
+
+ }
+ .heading .align {
+  font-size: 2.2rem;
+  font-family: Arial;
+  text-align: justify;
+
+ }
+
+/**********************************************************************
+*
+* Accordion styles
+*
+**********************************************************************/
+
+.collapsible {
+  cursor: pointer;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #4caf50;
+}
+
+.content {
+  padding: 0 1em;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #555;
+}
+
+.content p {
+  padding: 1em;
+}
