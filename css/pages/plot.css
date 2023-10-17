@@ -64,6 +64,18 @@ text-decoration: underline;
   background-color: #4caf50;
 }
 
+.collapsible:after {
+  content: '\23f7'; /* Unicode character for "triangle down" */
+  font-size: 2.3rem;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: '\23f6'; /* Unicode character for "triangle up" */
+}
+
 .content {
   padding: 0 1em;
   max-height: 0;
