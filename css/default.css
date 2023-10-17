@@ -17,10 +17,22 @@
 
 body {
   font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
   cursor: pointer;
+  color: white;
+  text-align: center;
+  padding: 1em;
 }
 
 section {
@@ -127,14 +139,22 @@ a {
 
 /**********************************************************************
 *
-* Footer Note styles
+* Footer styles
 *
 **********************************************************************/
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: auto;
+  width: 100%;
+}
 
 .note-footer {
   background-color: #00000050;
   color: white;
-  padding: 10px 5px;
+  padding: 1em 0 2em 0;
 }
 
 .note-footer a {
@@ -155,9 +175,7 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /*
   background-color: #333;
-  */
   color: white;
   padding: 10px;
   list-style: none;
@@ -168,13 +186,17 @@ a {
 }
 
 .nav .navbar-container a {
+  /* so hover highlight is rectangular */
+  display: block;
+  line-height: 120%; 
   text-decoration: none;
   color: white;
-  transition: color 0.3s;
+  transition: background-color 0.3s;
 }
 
 .nav .navbar-container a:hover {
-  color: #ccc;
+  background-color: #ddd;
+  color: black;
 }
 
 .icon {
