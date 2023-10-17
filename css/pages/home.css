@@ -65,16 +65,19 @@ img {
   border: none;
   border-radius: 20px;
   padding: 10px 20px;
-  background-color: #3498db;
+  background-color: green;
   color: white;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: 0.3s;
+  outline: none; /* Remove the default focus outline */
 }
 
 #button:hover {
-  background-color: greenyellow;
+  background-color: black;
+  color: green;
 }
+
 
 
 .modal {
