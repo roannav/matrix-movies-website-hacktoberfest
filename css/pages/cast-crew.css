@@ -10,6 +10,25 @@
 * Cast
 *
 **********************************************************************/
+#fake{
+  display: flex;
+  justify-content: space-around;
+  font-size: 28px;
+  padding: 15px;
+  color:rgb(255, 255, 255);
+}
+.cast-section #cast-rows{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.crew-section #crew-rows{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
 #cast-rows {
   width: 100%;
