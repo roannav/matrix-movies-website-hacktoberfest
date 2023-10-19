@@ -18,100 +18,51 @@
     />
     <link rel="stylesheet" href="./css/default.css" />
     <link rel="stylesheet" href="./css/pages/reviews.css" />
-  <style>
-    /* Reset default margin and padding */
-    body, h1, h2, h3, p {
-      margin: 0;
-      padding: 0;
-      font-family: 'Arvo', serif;
-    }
+    <style>
+      h1, h2, p {
+        font-family: 'Arvo', serif;
+      }
 
-    /* Set a background color for the body */
-    body {
-      background-color: #f3f0f0;
-      color: #fff;
-      line-height: 1.6;
-    }
+      /* Set a background color for the body */
+      body {
+        background-color: #f3f0f0;
+        color: #fff;
+      }
 
-    /* Style the header element */
-    header {
-      
-      color: #fff;
-      text-align: center;
-      padding: 10px;
-      cursor: pointer;
-    }
+      /* Style the reviews section */
+      .reviews-section {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #333;
+        border: 1px solid #555;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        line-height: 1.6;
+      }
 
-    /* Style the navbar element */
-    navbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #232419;
-      color: #fff;
-      padding: 10px;
-    }
+      .review {
+        margin-bottom: 20px;
+        border: 1px solid #555;
+        padding: 10px;
+        background-color: #444;
+        color: #fff;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+      }
 
-    navbar a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 1.2rem;
-      margin-right: 20px;
-    }
+      h6 {
+        font-weight: bold;
+        margin: 0;
+        margin-bottom: 5px;
+        color: #fff;
+      }
 
-    navbar a:hover {
-      text-decoration: underline;
-    }
-
-    /* Style the reviews section */
-    .reviews-section {
-      width: 80%;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: #333;
-      border: 1px solid #555;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    }
-
-    .review {
-      margin-bottom: 20px;
-      border: 1px solid #555;
-      padding: 10px;
-      background-color: #444;
-      color: #fff;
-      border-radius: 5px;
-      display: flex;
-      flex-direction: column;
-      
-    }
-
-    h6 {
-      font-weight: bold;
-      margin: 0;
-      margin-bottom: 5px;
-      color: #fff;
-    }
-
-    p {
-      margin-bottom: 10px;
-    }
-
-    /* Style the footer element */
-    footer {
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-      padding: 10px;
-    }
-
-    /* Add your custom styles for other elements as needed */
-
-  </style>
-  </style>
+      p {
+        margin-bottom: 10px;
+      }
+    </style>
   </head>
-
-
   <body>
     <div class="screen">
       <header id="header" onclick="window.location.href='index.html';">
@@ -190,17 +141,17 @@
         });
 
         // Make the navbar interactive (replace 'navbar' with your actual navbar element)
-          const navbar = document.getElementById('navbar');
-          navbar.innerHTML = `
-                          <ul class="navbar-container" >
-                            <li><a href="characters.html">Characters</a></li>
-                            <li><a href="plot.html">Plot</a></li>
-                            <li><a href="scenes.html">Favourite Scenes</a></li>
-                            <li><a href="cast-crew.html">Cast & Crew</a></li>
-                            <li><a href="reviews.html">Reviews</a></li>
-                            <li><a href="games.html">Games</a></li>         
-                          </ul>
-                        `;
+          // const navbar = document.getElementById('navbar');
+          // navbar.innerHTML = `
+          //                 <ul class="navbar-container" >
+          //                   <li><a href="characters.html">Characters</a></li>
+          //                   <li><a href="plot.html">Plot</a></li>
+          //                   <li><a href="scenes.html">Favourite Scenes</a></li>
+          //                   <li><a href="cast-crew.html">Cast & Crew</a></li>
+          //                   <li><a href="reviews.html">Reviews</a></li>
+          //                   <li><a href="games.html">Games</a></li>         
+          //                 </ul>
+          //               `;
 
       const reviews = document.querySelectorAll('.review');
         let currentIndex = 0;
@@ -233,8 +184,8 @@
     </script>
     
     <script src="js/header.js"></script>
-    <!-- <script src="js/navbar.js"></script> -->
-    <!-- <script src="js/topbutton.js"></script> -->
+    <script src="js/navbar.js"></script>
+    <script src="js/topbutton.js"></script>
     <script src="js/footer.js"></script>
 
   </body>
