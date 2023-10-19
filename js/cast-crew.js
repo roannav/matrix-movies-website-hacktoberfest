@@ -9,12 +9,20 @@ castArray.forEach((row) => {
   txt +=
     "<p><span class='cast-role'>" +
     row[2] +
-    "</span><span class='cast-name'>" +
+    "</span></p>";
+});
+const castRows = document.getElementById("rol-cast");
+castRows.innerHTML = txt;
+
+txt = "";
+castArray.forEach((row) => {
+  txt +=
+    "<p><span class='cast-name'>" +
     row[1].toUpperCase() +
     "</span></p>";
 });
-const castRows = document.getElementById("cast-rows");
-castRows.innerHTML = txt;
+const castRows2 = document.getElementById("name-act");
+castRows2.innerHTML = txt;
 
 txt = "";
 crewArray.forEach((row) => {
@@ -22,9 +30,18 @@ crewArray.forEach((row) => {
   txt +=
     "<p><span class='crew-role'>" +
     row[1] +
-    "</span><span class='crew-name'>" +
+    "</span></p>";
+});
+const crewRows = document.getElementById("rol-crew");
+crewRows.innerHTML = txt;
+
+txt = "";
+crewArray.forEach((row) => {
+  console.log(row);
+  txt +=
+    "<p><span class='crew-name'>" +
     row[0].toUpperCase() +
     "</span></p>";
 });
-const crewRows = document.getElementById("crew-rows");
-crewRows.innerHTML = txt;
+const crewRows2 = document.getElementById("name-crew");
+crewRows2.innerHTML = txt;
