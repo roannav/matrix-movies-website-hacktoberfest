@@ -11,7 +11,8 @@ navbar.innerHTML = `
     <li><a href="cast-crew.html">Cast & Crew</a></li>
     <li><a href="reviews.html">Reviews</a></li>   
     <li><a href="games.html">Games</a></li>         
-    <li><a href="gallery.html">Photo Gallery</a></li>      
+    <li><a href="gallery.html">Photo Gallery</a></li>
+    <li><a href="wallpapers.html">Wallpapers</a></li>
   </ul>
 </div>
 
