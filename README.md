@@ -137,6 +137,9 @@ For more information, visit [hacktoberfest.com](https://hacktoberfest.com/).
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Shreshth-Srivastava"><img src="https://avatars.githubusercontent.com/u/134348598?v=4?s=100" width="100px;" alt="Shreshth Srivastava"/><br /><sub><b>Shreshth Srivastava</b></sub></a><br /><a href="#code-Shreshth-Srivastava" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Deepankar1484"><img src="https://avatars.githubusercontent.com/u/122424189?v=4?s=100" width="100px;" alt="Deepankar1484"/><br /><sub><b>Deepankar1484</b></sub></a><br /><a href="#code-Deepankar1484" title="Code">💻</a> <a href="#design-Deepankar1484" title="Design">🎨</a> <a href="#ideas-Deepankar1484" title="Ideas, Planning, & Feedback">🤔</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/lokesh932338"><img src="https://avatars.githubusercontent.com/u/142098970?v=4?s=100" width="100px;" alt="lokesh932338"/><br /><sub><b>lokesh932338</b></sub></a><br /><a href="#code-lokesh932338" title="Code">💻</a> <a href="#content-lokesh932338" title="Content">🖋</a> <a href="#design-lokesh932338" title="Design">🎨</a> <a href="#ideas-lokesh932338" title="Ideas, Planning, & Feedback">🤔</a></td>
+    </tr>
   </tbody>
 </table>
 
