@@ -134,6 +134,7 @@ For more information, visit [hacktoberfest.com](https://hacktoberfest.com/).
       <td align="center" valign="top" width="14.28%"><a href="http://hendrahend.github.io"><img src="https://avatars.githubusercontent.com/u/75461724?v=4?s=100" width="100px;" alt="Hendra Hendriana"/><br /><sub><b>Hendra Hendriana</b></sub></a><br /><a href="#content-hendrahend" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Aka-suvam"><img src="https://avatars.githubusercontent.com/u/94453074?v=4?s=100" width="100px;" alt="Suvam Rai"/><br /><sub><b>Suvam Rai</b></sub></a><br /><a href="#code-Aka-suvam" title="Code">💻</a> <a href="#design-Aka-suvam" title="Design">🎨</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://daviscoresume.netlify.app"><img src="https://avatars.githubusercontent.com/u/63981998?v=4?s=100" width="100px;" alt="David Ayomide Olaniyi"/><br /><sub><b>David Ayomide Olaniyi</b></sub></a><br /><a href="#code-Dhavisco" title="Code">💻</a> <a href="#design-Dhavisco" title="Design">🎨</a> <a href="#ideas-Dhavisco" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Shreshth-Srivastava"><img src="https://avatars.githubusercontent.com/u/134348598?v=4?s=100" width="100px;" alt="Shreshth Srivastava"/><br /><sub><b>Shreshth Srivastava</b></sub></a><br /><a href="#code-Shreshth-Srivastava" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
