@@ -95,10 +95,6 @@ a {
 
 @media (min-width: 760px) {
   /* changes for ipad/tablet sizes */
-  .nav .navbar-container {
-    justify-content: center;
-    width: 85vw;
-  }
   h1 {
     font-size: 4.6rem;
   }
@@ -125,9 +121,6 @@ a {
     padding: 5px;
     line-height: 25px;
     margin-bottom: 20px;
-  }
-  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-    font-size: 99.5%;
   }
 }
 
@@ -180,13 +173,12 @@ footer {
 
 .nav .navbar-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: #333;
   color: white;
   padding: 10px;
   list-style: none;
-  width: 70vw;
 }
 
 .nav .navbar-container li {
@@ -217,9 +209,6 @@ footer {
     float: left;
     display: block;
   }
-  .screen h1 {
-    font-size: 2.4rem;
-  }
 }
 
 @media screen and (max-width: 600px) {
@@ -244,10 +233,7 @@ footer {
     color:#333333;
     background-color:#ccc;
   }
-  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-    font-size: 8.2px;
-    font: 100;
-  }
+  
 }
 /**********************************************************************
 *
