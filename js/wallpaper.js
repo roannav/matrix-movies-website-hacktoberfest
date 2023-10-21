@@ -12,7 +12,7 @@ for (let i = 0; i < downloadButtons.length; i++) {
 
 // defining the downloadFile function
 function downloadFile(fileName) {
-  const filePath = "/img/wallpapers/" + fileName;
+  const filePath = "img/wallpapers/" + fileName;
 
   const downloadFileName = fileName;
 
