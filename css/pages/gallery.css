@@ -15,7 +15,8 @@
 
 .photo-gallery img {
   width: 100%;
-  height: auto;
+  height: 100%; /* Set the height to 100% to ensure all images have the same height */
+  object-fit: cover; /* Maintain image aspect ratio and cover the container */
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
@@ -24,4 +25,5 @@
 
 .photo-gallery img:hover {
   transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(1, 244, 1, 0.654); /* Add a background glow effect on hover */
 }
