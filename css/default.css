@@ -67,7 +67,7 @@ h3 {
   font-weight: 400;
   background-color: rgba(0, 0, 0, 0.466);
   box-shadow: 3px 3px 10px rgba(185, 183, 183, 0.3);
-  width: 20%;
+  width: min(max(20%, 400px), 100%);
   text-align: center;
   margin: 3px auto ;
   border-radius: 10px;
