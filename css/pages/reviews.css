@@ -4,4 +4,19 @@
 * These styles override default.css.
 *
 **********************************************************************/
-
+#btn1 {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    outline: none; /* Remove the default focus outline */
+  }
+  
+  #btn1:hover {
+    background-color: black;
+    color: green;
+  }

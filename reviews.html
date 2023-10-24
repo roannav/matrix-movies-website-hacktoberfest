@@ -8,10 +8,24 @@
     </title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="./img/favicons/site.webmanifest">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./img/favicons/site.webmanifest" />
     <link
       href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Ubuntu&display=swap"
       rel="stylesheet"
@@ -19,6 +33,7 @@
     <link rel="stylesheet" href="./css/default.css" />
     <link rel="stylesheet" href="./css/pages/reviews.css" />
     <style>
+
       h1, h2, p {
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       }
@@ -109,8 +124,40 @@
       <navbar id="navbar"><!-- js/navbar.js --></navbar>
 
       <section class="reviews-section">
-        <button id="prev-button">Previous</button>
-        <button id="next-button">Next</button>
+        <button
+          id="prev-button"
+          class="btn1"
+          style="
+            background-color: green;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+            outline: none;
+          "
+        >
+          Previous
+        </button>
+        <button
+          id="next-button"
+          class="btn1"
+          style="
+            background-color: green;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+            outline: none;
+          "
+        >
+          Next
+        </button>
 
         <h3>Reviews</h3>
         <div class="review">
@@ -169,62 +216,62 @@
     </div>
     <script>
       // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-          anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-              behavior: 'smooth'
-            });
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
           });
         });
+      });
 
-        // Make the navbar interactive (replace 'navbar' with your actual navbar element)
-          // const navbar = document.getElementById('navbar');
-          // navbar.innerHTML = `
-          //                 <ul class="navbar-container" >
-          //                   <li><a href="characters.html">Characters</a></li>
-          //                   <li><a href="plot.html">Plot</a></li>
-          //                   <li><a href="scenes.html">Favourite Scenes</a></li>
-          //                   <li><a href="cast-crew.html">Cast & Crew</a></li>
-          //                   <li><a href="reviews.html">Reviews</a></li>
-          //                   <li><a href="games.html">Games</a></li>         
-          //                 </ul>
-          //               `;
+      // Make the navbar interactive (replace 'navbar' with your actual navbar element)
+      // const navbar = document.getElementById('navbar');
+      // navbar.innerHTML = `
+      //                 <ul class="navbar-container" >
+      //                   <li><a href="characters.html">Characters</a></li>
+      //                   <li><a href="plot.html">Plot</a></li>
+      //                   <li><a href="scenes.html">Favourite Scenes</a></li>
+      //                   <li><a href="cast-crew.html">Cast & Crew</a></li>
+      //                   <li><a href="reviews.html">Reviews</a></li>
+      //                   <li><a href="games.html">Games</a></li>
+      //                 </ul>
+      //               `;
 
-      const reviews = document.querySelectorAll('.review');
-        let currentIndex = 0;
+      const reviews = document.querySelectorAll(".review");
+      let currentIndex = 0;
 
-        function showReview(index) {
-          reviews.forEach((review, i) => {
-            review.style.display = i === index ? 'block' : 'none';
-          });
-        }
+      function showReview(index) {
+        reviews.forEach((review, i) => {
+          review.style.display = i === index ? "block" : "none";
+        });
+      }
 
-        function nextReview() {
-          currentIndex = (currentIndex + 1) % reviews.length;
-          showReview(currentIndex);
-        }
-
-        function prevReview() {
-          currentIndex = (currentIndex - 1 + reviews.length) % reviews.length;
-          showReview(currentIndex);
-        }
-
-        // Show the initial review
+      function nextReview() {
+        currentIndex = (currentIndex + 1) % reviews.length;
         showReview(currentIndex);
+      }
 
-        // Add event listeners for next and previous buttons
-        document.getElementById('next-button').addEventListener('click', nextReview);
-        document.getElementById('prev-button').addEventListener('click', prevReview);
+      function prevReview() {
+        currentIndex = (currentIndex - 1 + reviews.length) % reviews.length;
+        showReview(currentIndex);
+      }
 
-        
+      // Show the initial review
+      showReview(currentIndex);
 
+      // Add event listeners for next and previous buttons
+      document
+        .getElementById("next-button")
+        .addEventListener("click", nextReview);
+      document
+        .getElementById("prev-button")
+        .addEventListener("click", prevReview);
     </script>
-    
+
     <script src="js/header.js"></script>
     <script src="js/navbar.js"></script>
     <script src="js/topbutton.js"></script>
     <script src="js/footer.js"></script>
-
   </body>
 </html>
