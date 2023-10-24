@@ -146,6 +146,9 @@ For more information, visit [hacktoberfest.com](https://hacktoberfest.com/).
       <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/sagar-singh-bisht-10903222b/"><img src="https://avatars.githubusercontent.com/u/99736036?v=4?s=100" width="100px;" alt="Sagar Singh Bisht"/><br /><sub><b>Sagar Singh Bisht</b></sub></a><br /><a href="#code-sagarb2003" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Ishaan0132"><img src="https://avatars.githubusercontent.com/u/35690029?v=4?s=100" width="100px;" alt="Ishaan Shaikh"/><br /><sub><b>Ishaan Shaikh</b></sub></a><br /><a href="#code-Ishaan0132" title="Code">💻</a> <a href="#design-Ishaan0132" title="Design">🎨</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Shubhangam333"><img src="https://avatars.githubusercontent.com/u/51338715?v=4?s=100" width="100px;" alt="Shubhangam Saxena"/><br /><sub><b>Shubhangam Saxena</b></sub></a><br /><a href="#code-Shubhangam333" title="Code">💻</a></td>
+    </tr>
   </tbody>
 </table>
 
