@@ -182,11 +182,17 @@ footer {
 }
 
 .note-footer a {
-  color: #4caf50;
+  color: green;
+  text-decoration: none;
 }
 
 .note-footer a:hover {
-  color: white;
+  color: #00FF7F;
+  font-weight: 300;
+  text-decoration: underline; 
+  transition: color 0.3s, font-weight 0.3s; 
+  cursor: pointer;
+  
 }
 
 /**********************************************************************
