@@ -33,10 +33,9 @@
     <link rel="stylesheet" href="./css/default.css" />
     <link rel="stylesheet" href="./css/pages/reviews.css" />
     <style>
-      h1,
-      h2,
-      p {
-        font-family: "Arvo", serif;
+
+      h1, h2, p {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       }
 
       /* Set a background color for the body */
@@ -45,25 +44,53 @@
         color: #fff;
       }
 
+      h3{
+        background-color: rgba(0, 0, 0, 0.466);
+        box-shadow: 3px 3px 10px rgba(185, 183, 183, 0.3);
+        width: 20%;
+        text-align: center;
+        margin: 3px auto ;
+        border-radius: 10px;
+      }
+      h3 {
+          
+          color: #fff;
+          text-align: center;
+          animation: glow 1s ease-in-out infinite alternate;
+        }
+
+        @-webkit-keyframes glow {
+          from {
+            text-shadow: 0 0 10px #fff, 0 0 10px #37e10c, 0 0 20px #56ef54, 0 0 30px #06b32c, 0 0 40px #47ec31, 0 0 50px #165e06, 0 0 60px #038d18;
+          }
+          
+          to {
+            text-shadow: 0 0 10px #fff, 0 0 20px #6eff4d, 0 0 30px #095a12, 0 0 40px #038a0e, 0 0 50px #02660e, 0 0 60px #036425, 0 0 70px #2ebe03;
+          }
+        }
       /* Style the reviews section */
       .reviews-section {
         width: 80%;
         margin: 0 auto;
         padding: 20px;
-        background-color: #333;
+        /* background-color: #333; */
         border: 1px solid #555;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
         line-height: 1.6;
+        background-image: url(./img/wallpapers/wallpaper1.png),linear-gradient(rgba(0, 0, 0, 0.442),rgba(0, 0, 0, 0.448));
+        background-repeat: no-repeat;
+        background-size: cover;
       }
 
       .review {
         margin-bottom: 20px;
         border: 1px solid #555;
         padding: 10px;
-        background-color: #444;
+        background-color: #00000063;
         color: #fff;
         border-radius: 5px;
         display: flex;
+        box-shadow: 2px 2px 10px rgba(167, 166, 166, 0.3);
         flex-direction: column;
       }
 
@@ -76,6 +103,16 @@
 
       p {
         margin-bottom: 10px;
+      }
+      button{
+        padding: 5px;
+        color: white;
+        background-color: green; 
+        box-shadow: 3px 3px 10px 2px rgba(206, 205, 205, 0.3);
+
+      }
+      button:hover{
+        background-color: rgb(2, 177, 2);
       }
     </style>
   </head>
