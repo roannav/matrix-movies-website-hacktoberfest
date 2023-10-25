@@ -216,17 +216,31 @@ footer {
 }
 
 .nav .navbar-container a {
-  /* so hover highlight is rectangular */
   display: block;
+  position:relative;
   line-height: 120%; 
   text-decoration: none;
   color: white;
-  transition: background-color 0.3s;
+  transition: 0.3s;
 }
-
+.nav .navbar-container a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background-color: lightgreen;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease;
+    transform: scaleX(0);
+}
+.nav .navbar-container a:hover::after {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+}
 .nav .navbar-container a:hover {
-  background-color: #ddd;
-  color: black;
+  color: limegreen;
 }
 
 .icon {
@@ -265,6 +279,7 @@ footer {
   }
   
 }
+
 @media screen and (max-width: 1000px) {
   .nav .navbar-container {
     display: flex;
@@ -281,6 +296,7 @@ footer {
     text-align: center;
   }
 }
+
 
 
 /**********************************************************************
