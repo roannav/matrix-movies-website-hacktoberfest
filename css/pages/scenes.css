@@ -35,6 +35,7 @@
   row-gap: 10px;
   flex-wrap: wrap;
   object-fit: cover;
+  justify-content: center;
 }
 
 .videos {

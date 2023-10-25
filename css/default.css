@@ -1,9 +1,9 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
 
-*{
-  font-family: 'Source Code Pro';
+* {
+  font-family: "Source Code Pro";
 }
 
 *,
@@ -69,7 +69,7 @@ h3 {
   box-shadow: 3px 3px 10px rgba(185, 183, 183, 0.3);
   width: min(max(20%, 400px), 100%);
   text-align: center;
-  margin: 3px auto ;
+  margin: 3px auto;
   border-radius: 10px;
   padding: 5px;
   color: #fff;
@@ -79,11 +79,13 @@ h3 {
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 10px #37e10c, 0 0 20px #56ef54, 0 0 30px #06b32c, 0 0 40px #47ec31, 0 0 50px #165e06, 0 0 60px #038d18;
+    text-shadow: 0 0 10px #fff, 0 0 10px #37e10c, 0 0 20px #56ef54,
+      0 0 30px #06b32c, 0 0 40px #47ec31, 0 0 50px #165e06, 0 0 60px #038d18;
   }
 
   to {
-    text-shadow: 0 0 10px #fff, 0 0 20px #6eff4d, 0 0 30px #095a12, 0 0 40px #038a0e, 0 0 50px #02660e, 0 0 60px #036425, 0 0 70px #2ebe03;
+    text-shadow: 0 0 10px #fff, 0 0 20px #6eff4d, 0 0 30px #095a12,
+      0 0 40px #038a0e, 0 0 50px #02660e, 0 0 60px #036425, 0 0 70px #2ebe03;
   }
 }
 
@@ -138,14 +140,14 @@ a {
     font-size: 2.3rem;
     padding-top: 10px;
   }
+}
 
-  p,
-  a {
-    font-size: 1.2rem;
-    padding: 5px;
-    line-height: 25px;
-    margin-bottom: 20px;
-  }
+p,
+a {
+  font-size: 1.2rem;
+  padding: 5px;
+  line-height: 25px;
+  margin-bottom: 20px;
 }
 
 .screen {
@@ -159,7 +161,6 @@ a {
   padding: 1em var(--padding-m);
   /* outline: 1px solid red; */
 }
-
 
 /**********************************************************************
 *
@@ -187,12 +188,11 @@ footer {
 }
 
 .note-footer a:hover {
-  color: #00FF7F;
+  color: #00ff7f;
   font-weight: 300;
-  text-decoration: underline; 
-  transition: color 0.3s, font-weight 0.3s; 
+  text-decoration: underline;
+  transition: color 0.3s, font-weight 0.3s;
   cursor: pointer;
-  
 }
 
 /**********************************************************************
@@ -217,27 +217,27 @@ footer {
 
 .nav .navbar-container a {
   display: block;
-  position:relative;
-  line-height: 120%; 
+  position: relative;
+  line-height: 120%;
   text-decoration: none;
   color: white;
   transition: 0.3s;
 }
 .nav .navbar-container a::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 4px;
-    background-color: lightgreen;
-    transform-origin: bottom right;
-    transition: transform 0.5s ease;
-    transform: scaleX(0);
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background-color: lightgreen;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease;
+  transform: scaleX(0);
 }
 .nav .navbar-container a:hover::after {
-    transform-origin: bottom left;
-    transform: scaleX(1);
+  transform-origin: bottom left;
+  transform: scaleX(1);
 }
 .nav .navbar-container a:hover {
   color: limegreen;
@@ -248,7 +248,9 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  .nav .navbar-container a{display: none;}
+  .nav .navbar-container a {
+    display: none;
+  }
   .nav .icon {
     float: left;
     display: block;
@@ -256,48 +258,46 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  .nav.responsive {position: relative;}
+  .nav.responsive {
+    position: relative;
+  }
   .nav.responsive .icon {
     position: absolute;
     left: 0;
     top: 0;
   }
-  .nav.responsive .navbar-container{
+  .nav.responsive .navbar-container {
     display: block;
-    background-color:#333;
+    background-color: #333;
     padding-top: 17px;
   }
-  .nav.responsive .navbar-container a{
+  .nav.responsive .navbar-container a {
     float: none;
     display: block;
     text-align: left;
-    padding:5px;
+    padding: 5px;
   }
-  .nav.responsive .navbar-container a:hover{
-    color:#333333;
-    background-color:#ccc;
+  .nav.responsive .navbar-container a:hover {
+    color: #333333;
+    background-color: #ccc;
   }
-  
 }
 
 @media screen and (max-width: 1000px) {
   .nav .navbar-container {
     display: flex;
-    flex-wrap:wrap; 
-   
+    flex-wrap: wrap;
   }
-  
+
   .nav .navbar-container li {
-     margin-top: 15px;
-     padding-right:15px;
+    margin-top: 15px;
+    padding-right: 15px;
   }
-  
+
   .nav .navbar-container a {
     text-align: center;
   }
 }
-
-
 
 /**********************************************************************
 *
@@ -310,23 +310,22 @@ html {
 }
 
 #backToTop {
-  display: none; 
-  position: fixed; 
-  bottom: 20px; 
-  right: 30px; 
-  z-index: 99; 
-  border: none; 
-  outline: none; 
-  background-color: #4CAF50; 
-  color: white; 
-  cursor: pointer; 
-  padding: 15px; 
-  border-radius: 10px; 
-  font-size: 18px; 
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
   font-weight: 700;
 }
 
 #backToTop:hover {
-  background-color: #555; 
+  background-color: #555;
 }
-
