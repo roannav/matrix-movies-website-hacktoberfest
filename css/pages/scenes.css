@@ -7,28 +7,27 @@
 
 @media (min-width: 760px) {
   /* changes for ipad/tablet sizes */
-  
+
   /* favourite scenes page media queries */
-  .images{
-   justify-content: center;
+  .images {
+    justify-content: center;
   }
 }
 
-.scenes-container{
+.scenes-container {
   width: 100%;
   height: 100%;
 }
 
-.scenes-heading{
+.scenes-heading {
   background-color: #018307;
   text-align: center;
-  height: 50px;
-  padding: 10px;
+  padding: 15px;
   margin: 10px 0 20px 0;
   font-size: 1.5rem;
 }
 
-.images{
+.images {
   max-width: 1080px;
   display: flex;
   flex-direction: row;
@@ -38,7 +37,7 @@
   object-fit: cover;
 }
 
-.videos{
+.videos {
   display: flex;
   justify-content: center;
   flex-direction: row;
