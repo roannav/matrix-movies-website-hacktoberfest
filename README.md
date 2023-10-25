@@ -147,7 +147,7 @@ For more information, visit [hacktoberfest.com](https://hacktoberfest.com/).
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Ishaan0132"><img src="https://avatars.githubusercontent.com/u/35690029?v=4?s=100" width="100px;" alt="Ishaan Shaikh"/><br /><sub><b>Ishaan Shaikh</b></sub></a><br /><a href="#code-Ishaan0132" title="Code">💻</a> <a href="#design-Ishaan0132" title="Design">🎨</a></td>
     </tr>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Shubhangam333"><img src="https://avatars.githubusercontent.com/u/51338715?v=4?s=100" width="100px;" alt="Shubhangam Saxena"/><br /><sub><b>Shubhangam Saxena</b></sub></a><br /><a href="#code-Shubhangam333" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Shubhangam333"><img src="https://avatars.githubusercontent.com/u/51338715?v=4?s=100" width="100px;" alt="Shubhangam Saxena"/><br /><sub><b>Shubhangam Saxena</b></sub></a><br /><a href="#code-Shubhangam333" title="Code">💻</a> <a href="#design-Shubhangam333" title="Design">🎨</a> <a href="#ideas-Shubhangam333" title="Ideas, Planning, & Feedback">🤔</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://harshitpandey0024.netlify.app/"><img src="https://avatars.githubusercontent.com/u/112557145?v=4?s=100" width="100px;" alt="Harshit Pandey"/><br /><sub><b>Harshit Pandey</b></sub></a><br /><a href="#code-harshit1142" title="Code">💻</a> <a href="#design-harshit1142" title="Design">🎨</a> <a href="#ideas-harshit1142" title="Ideas, Planning, & Feedback">🤔</a></td>
     </tr>
   </tbody>
