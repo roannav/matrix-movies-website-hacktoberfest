@@ -97,6 +97,12 @@
     padding: 1em;
 }
 
+@media (max-width : 660px) {
+    .games-section {
+        width: 100%;
+    }
+}
+
 /**********************************************************************
 *
 * Images styles
