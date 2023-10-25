@@ -209,6 +209,7 @@ footer {
   color: white;
   padding: 10px;
   list-style: none;
+  text-wrap: nowrap;
 }
 
 .nav .navbar-container li {
