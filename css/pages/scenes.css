@@ -50,4 +50,10 @@
 .images img {
   height: 200px;
   width: 200px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.images img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(1, 244, 1, 0.654); /* Add a background glow effect on hover */
 }
