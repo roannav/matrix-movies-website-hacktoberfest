@@ -23,7 +23,7 @@ castArray.forEach((row) => {
 });
 const castRows2 = document.getElementById("name-act");
 castRows2.innerHTML = txt;
-
+castRows2.style.backgroundImage="/img/wallpapers/wallpaper1.png";
 txt = "";
 crewArray.forEach((row) => {
   console.log(row);

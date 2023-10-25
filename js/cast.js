@@ -9,7 +9,7 @@ const castArray = [
   [ "JoePantoliano.png", "Joe Pantoliano", "Cypher" ],
   [ "MarcusChong.png", "Marcus Chong", "Tank" ],
   [ "JulianArahanga.png", "Julian Arahanga", "Apoc" ],
-  [ "MattDoran.png", "Matt Doran", "Mouse" ],
+  [ "MattDoran.png", "Matt Doran", "Mouse" ], 
   [ "BelindaMcClory.png", "Belinda McClory", "Switch" ],
   [ "AnthonyRay Parker.png", "Anthony Ray Parker", "Dozer" ],
   [ "PaulGoddard.png", "Paul Goddard", "Agent Brown" ],

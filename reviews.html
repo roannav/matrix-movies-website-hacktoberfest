@@ -33,9 +33,11 @@
     <link rel="stylesheet" href="./css/default.css" />
     <link rel="stylesheet" href="./css/pages/reviews.css" />
     <style>
-
-      h1, h2, p {
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      h1,
+      h2,
+      p {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
       }
 
       /* Set a background color for the body */
@@ -53,7 +55,8 @@
         border: 1px solid #555;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
         line-height: 1.6;
-        background-image: url(./img/wallpapers/wallpaper1.png),linear-gradient(rgba(0, 0, 0, 0.442),rgba(0, 0, 0, 0.448));
+        background-image: url(./img/wallpapers/wallpaper1.png),
+          linear-gradient(rgba(0, 0, 0, 0.442), rgba(0, 0, 0, 0.448));
         background-repeat: no-repeat;
         background-size: cover;
       }
@@ -69,6 +72,27 @@
         box-shadow: 2px 2px 10px rgba(167, 166, 166, 0.3);
         flex-direction: column;
       }
+      .btn1 {
+        background-color: green;
+        border: none;
+        border-radius: 20px;
+        margin-right: 15px;
+        padding: 10px 20px;
+        color: white;
+        font-size: 17px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        outline: none;
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      .btn1:hover {
+        background-color: #4caf50; 
+        color: white;
+        font-weight: bold;
+        transform: scale(1.05); 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
 
       h6 {
         font-weight: bold;
@@ -80,14 +104,13 @@
       p {
         margin-bottom: 10px;
       }
-      button{
+      button {
         padding: 5px;
         color: white;
-        background-color: green; 
+        background-color: green;
         box-shadow: 3px 3px 10px 2px rgba(206, 205, 205, 0.3);
-
       }
-      button:hover{
+      button:hover {
         background-color: rgb(2, 177, 2);
       }
     </style>
@@ -100,40 +123,8 @@
       <navbar id="navbar"><!-- js/navbar.js --></navbar>
 
       <section class="reviews-section">
-        <button
-          id="prev-button"
-          class="btn1"
-          style="
-            background-color: green;
-            border: none;
-            border-radius: 20px;
-            padding: 10px 20px;
-            color: white;
-            font-size: 16px;
-            cursor: pointer;
-            transition: 0.3s;
-            outline: none;
-          "
-        >
-          Previous
-        </button>
-        <button
-          id="next-button"
-          class="btn1"
-          style="
-            background-color: green;
-            border: none;
-            border-radius: 20px;
-            padding: 10px 20px;
-            color: white;
-            font-size: 16px;
-            cursor: pointer;
-            transition: 0.3s;
-            outline: none;
-          "
-        >
-          Next
-        </button>
+        <button id="prev-button" class="btn1">Previous</button>
+        <button id="next-button" class="btn1">Next</button>
 
         <h3>Reviews</h3>
         <div class="review">

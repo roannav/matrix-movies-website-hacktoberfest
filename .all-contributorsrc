@@ -363,7 +363,39 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/99736036?v=4",
       "profile": "https://www.linkedin.com/in/sagar-singh-bisht-10903222b/",
       "contributions": [
+        "code",
+        "design",
+        "ideas"
+      ]
+    },
+    {
+      "login": "Ishaan0132",
+      "name": "Ishaan Shaikh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35690029?v=4",
+      "profile": "https://github.com/Ishaan0132",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
+    {
+      "login": "Shubhangam333",
+      "name": "Shubhangam Saxena",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51338715?v=4",
+      "profile": "https://github.com/Shubhangam333",
+      "contributions": [
         "code"
+      ]
+    },
+    {
+      "login": "harshit1142",
+      "name": "Harshit Pandey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112557145?v=4",
+      "profile": "https://harshitpandey0024.netlify.app/",
+      "contributions": [
+        "code",
+        "design",
+        "ideas"
       ]
     }
   ]
