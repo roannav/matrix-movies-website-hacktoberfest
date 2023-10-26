@@ -329,3 +329,12 @@ html {
 #backToTop:hover {
   background-color: #555;
 }
+
+/* Adjust iframe size for better responsiveness*/
+
+@media screen and (max-width: 600px) {
+  iframe {
+    width: 100%; 
+    height: auto; 
+  }
+}
