@@ -94,6 +94,36 @@ For more information, visit [hacktoberfest.com](https://hacktoberfest.com/).
 12) **Celebration time!** 🎊 Your PR has been approved! You are a genuine open sourcerer! 🧙 You have unlocked the knowledge and power to make changes throughout the open source world.  What will be next?
 
 
+
+
+## Avoid Conflicts {Syncing your fork}
+
+An easy way to avoid conflicts is to add an 'upstream' for your git repo, as other PR's may be merged while you're working on your branch/fork.   
+
+```terminal
+git remote add upstream https://github.com/roannav/matrix-movies-website-hacktoberfest.git
+```
+
+You can verify that the new remote has been added by typing
+```terminal
+git remote -v
+```
+
+To pull any new changes from your parent repo simply run
+```terminal
+git merge upstream/main
+```
+
+This will give you any eventual conflicts and allow you to easily solve them in your repo. It's a good idea to use it frequently in between your own commits to make sure that your repo is up to date with its parent.
+
+For more information on syncing forks [read this article from Github](https://help.github.com/articles/syncing-a-fork/).
+
+
+
+
+
+
+
 # Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
