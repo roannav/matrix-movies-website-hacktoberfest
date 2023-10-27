@@ -152,6 +152,7 @@ For more information, visit [hacktoberfest.com](https://hacktoberfest.com/).
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Virtual4087"><img src="https://avatars.githubusercontent.com/u/119912892?v=4?s=100" width="100px;" alt="Shovit"/><br /><sub><b>Shovit</b></sub></a><br /><a href="#code-Virtual4087" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/P-Jaswanth"><img src="https://avatars.githubusercontent.com/u/123633298?v=4?s=100" width="100px;" alt="Pedada Jaswanth"/><br /><sub><b>Pedada Jaswanth</b></sub></a><br /><a href="#code-P-Jaswanth" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ayushkumarTomar"><img src="https://avatars.githubusercontent.com/u/86000647?v=4?s=100" width="100px;" alt="ayushkumarTomar"/><br /><sub><b>ayushkumarTomar</b></sub></a><br /><a href="#code-ayushkumarTomar" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ElectroCubic"><img src="https://avatars.githubusercontent.com/u/145821463?v=4?s=100" width="100px;" alt="ElectroCubic"/><br /><sub><b>ElectroCubic</b></sub></a><br /><a href="#code-ElectroCubic" title="Code">💻</a> <a href="#ideas-ElectroCubic" title="Ideas, Planning, & Feedback">🤔</a></td>
     </tr>
   </tbody>
 </table>
