@@ -33,7 +33,7 @@
 
 }
 
-#fake{ 
+.fake{ 
   display: flex;
   justify-content: space-around;
   font-size: 28px;
@@ -63,10 +63,6 @@
     
 }
 
-span.cast-role {
-  /* outline: 1px solid red; */
-}
-
 span.cast-name {
   padding-left: 30px;
   /* outline: 1px solid green; */
@@ -81,10 +77,6 @@ span.cast-name {
 
 #crew-rows {
   width: 100%;
-}
-
-span.crew-role {
-  /* outline: 1px solid red; */
 }
 
 span.crew-name {
