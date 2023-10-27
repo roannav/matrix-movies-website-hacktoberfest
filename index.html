@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
       The Matrix Movies Website
     </title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./img/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./img/favicons/favicon-16x16.png">
     <link rel="manifest" href="./img/favicons/site.webmanifest">
     <link
       href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Ubuntu:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/default.css" />
-    <link rel="stylesheet" href="./css/pages/home.css" />
+      rel="stylesheet">
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/pages/home.css">
   </head>
 
   <body>
@@ -28,9 +27,6 @@
       </header>
       <navbar id="navbar"><!-- js/navbar.js -->
       </navbar>
-      <div class="navbar">
-    
-      </div>
 
       <section class="home-section">
         <!-- This image is a placeholder prototype for what will be in this section-->
@@ -58,50 +54,46 @@
         <div id="videoModal fade-in" class="modal">
           <div class="modal-content">
             <span class="close" onclick="closeVideoModal()">&times;</span>
-            <iframe style="border-radius: 5%;"width="700" height="450"  src="https://www.youtube.com/embed/vKQi3bBA1y8?si=A8PWjCJS4Y6rKuYe" frameborder="0" allowfullscreen></iframe>
+            <iframe style="border-radius: 5%;" width="700" height="450" src="https://www.youtube.com/embed/vKQi3bBA1y8?si=A8PWjCJS4Y6rKuYe" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
-        </div>
-        </div>
 
+          <script>
+            // JavaScript for rotating posters
+            const posters = [
+                "./img/home/movie-poster/poster1.jpg",
+                "./img/home/movie-poster/poster2.jpg",
+                "./img/home/movie-poster/poster3.jpg",
+                "./img/home/movie-poster/poster4.jpg",
+                "./img/home/movie-poster/poster5.jpg",
+                "./img/home/movie-poster/poster6.jpg"
+            ]; // Add the paths to your posters
+            let currentPosterIndex = 0;
         
-
+            function rotatePosters() {
+                document.getElementById("movie-poster").src = posters[currentPosterIndex];
+                currentPosterIndex = (currentPosterIndex + 1) % posters.length;
+            }
+        
+            // Change poster every 5 seconds
+            setInterval(rotatePosters, 5000);
+        </script>
         <script>
-          // JavaScript for rotating posters
-          const posters = [
-              "./img/home/movie-poster/poster1.jpg",
-              "./img/home/movie-poster/poster2.jpg",
-              "./img/home/movie-poster/poster3.jpg",
-              "./img/home/movie-poster/poster4.jpg",
-              "./img/home/movie-poster/poster5.jpg",
-              "./img/home/movie-poster/poster6.jpg"
-          ]; // Add the paths to your posters
-          let currentPosterIndex = 0;
-      
-          function rotatePosters() {
-              document.getElementById("movie-poster").src = posters[currentPosterIndex];
-              currentPosterIndex = (currentPosterIndex + 1) % posters.length;
+          function openVideoModal() {
+            var modal = document.getElementById("videoModal");
+            modal.style.display = "block";
           }
-      
-          // Change poster every 5 seconds
-          setInterval(rotatePosters, 5000);
-      </script>
-      <script>
-        function openVideoModal() {
-          var modal = document.getElementById("videoModal");
-          modal.style.display = "block";
-        }
-        function closeVideoModal() {
-          var modal = document.getElementById("videoModal");
-          modal.style.display = "none";
-        }
-      </script>
-      <script>
-        window.addEventListener('load', function () {
-          const movieInfo = document.getElementById('movie-info');
-          movieInfo.classList.add('fade-in');
-        });
-      </script>
+          function closeVideoModal() {
+            var modal = document.getElementById("videoModal");
+            modal.style.display = "none";
+          }
+        </script>
+        <script>
+          window.addEventListener('load', function () {
+            const movieInfo = document.getElementById('movie-info');
+            movieInfo.classList.add('fade-in');
+          });
+        </script>
 
       </section>
       <!--home-section-->
