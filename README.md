@@ -96,7 +96,7 @@ For more information, visit [hacktoberfest.com](https://hacktoberfest.com/).
 
 
 
-## Avoid Conflicts {Syncing your fork}
+## Avoid Conflicts (Syncing your fork)
 
 An easy way to avoid conflicts is to add an 'upstream' for your git repo, as other PR's may be merged while you're working on your branch/fork.   
 
@@ -109,7 +109,17 @@ You can verify that the new remote has been added by typing
 git remote -v
 ```
 
-To pull any new changes from your parent repo simply run
+Fetch branches and commits from the upstream repo.  This will also create local branches from the remote branches, if they don't already exist.
+```terminal
+git fetch upstream
+```
+
+Make sure you are on the local branch where you have been making all your code changes.
+```terminal
+git checkout <your-branch-name>
+```
+
+To merge any new changes from your parent repo, simply run
 ```terminal
 git merge upstream/main
 ```
