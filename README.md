@@ -195,6 +195,9 @@ For more information on syncing forks [read this article from Github](https://he
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ElectroCubic"><img src="https://avatars.githubusercontent.com/u/145821463?v=4?s=100" width="100px;" alt="ElectroCubic"/><br /><sub><b>ElectroCubic</b></sub></a><br /><a href="#code-ElectroCubic" title="Code">💻</a> <a href="#ideas-ElectroCubic" title="Ideas, Planning, & Feedback">🤔</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/SriBalina"><img src="https://avatars.githubusercontent.com/u/95462105?v=4?s=100" width="100px;" alt="RathnaSri Balina"/><br /><sub><b>RathnaSri Balina</b></sub></a><br /><a href="#code-SriBalina" title="Code">💻</a> <a href="#doc-SriBalina" title="Documentation">📖</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://parasshenmare.vercel.app"><img src="https://avatars.githubusercontent.com/u/112749923?v=4?s=100" width="100px;" alt="Paras Shenmare"/><br /><sub><b>Paras Shenmare</b></sub></a><br /><a href="#code-shenmareparas" title="Code">💻</a> <a href="#content-shenmareparas" title="Content">🖋</a> <a href="#ideas-shenmareparas" title="Ideas, Planning, & Feedback">🤔</a></td>
+    </tr>
   </tbody>
 </table>
 
