@@ -446,6 +446,17 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "shenmareparas",
+      "name": "Paras Shenmare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112749923?v=4",
+      "profile": "http://parasshenmare.vercel.app",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
     }
   ]
 }
