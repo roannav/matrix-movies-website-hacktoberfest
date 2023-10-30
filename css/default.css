@@ -207,13 +207,13 @@ footer {
   align-items: center;
   background-color: #333;
   color: white;
-  padding: 10px;
+  padding: 5px;
   list-style: none;
   text-wrap: nowrap;
 }
 
 .nav .navbar-container li {
-  padding: 0 10px;
+  padding: 0 5px;
 }
 
 .nav .navbar-container a {
