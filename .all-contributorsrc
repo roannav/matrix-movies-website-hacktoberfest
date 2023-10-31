@@ -457,6 +457,16 @@
         "content",
         "ideas"
       ]
+    },
+    {
+      "login": "sai-kumar0",
+      "name": "Sai kumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/129689787?v=4",
+      "profile": "https://github.com/sai-kumar0",
+      "contributions": [
+        "bug",
+        "code"
+      ]
     }
   ]
 }
