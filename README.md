@@ -197,6 +197,7 @@ For more information on syncing forks [read this article from Github](https://he
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="http://parasshenmare.vercel.app"><img src="https://avatars.githubusercontent.com/u/112749923?v=4?s=100" width="100px;" alt="Paras Shenmare"/><br /><sub><b>Paras Shenmare</b></sub></a><br /><a href="#code-shenmareparas" title="Code">💻</a> <a href="#content-shenmareparas" title="Content">🖋</a> <a href="#ideas-shenmareparas" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/sai-kumar0"><img src="https://avatars.githubusercontent.com/u/129689787?v=4?s=100" width="100px;" alt="Sai kumar"/><br /><sub><b>Sai kumar</b></sub></a><br /><a href="#bug-sai-kumar0" title="Bug reports">🐛</a> <a href="#code-sai-kumar0" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
