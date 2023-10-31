@@ -207,13 +207,13 @@ footer {
   align-items: center;
   background-color: #333;
   color: white;
-  padding: 5px;
+  padding: 10px;
   list-style: none;
   text-wrap: nowrap;
 }
 
 .nav .navbar-container li {
-  padding: 0 5px;
+  padding: 0 10px;
 }
 
 .nav .navbar-container a {
@@ -299,12 +299,12 @@ footer {
     text-align: center;
   }
 }
-
 @media screen and (max-width: 1700px) {
   .nav .navbar-container {
     display: flex;
     flex-wrap: wrap;
   }
+}
 
 /**********************************************************************
 *
@@ -341,7 +341,7 @@ html {
 
 @media screen and (max-width: 600px) {
   iframe {
-    width: 100%; 
-    height: auto; 
+    width: 100%;
+    height: auto;
   }
 }
