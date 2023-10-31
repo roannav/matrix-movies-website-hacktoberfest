@@ -299,6 +299,12 @@ footer {
     text-align: center;
   }
 }
+@media screen and (max-width: 1700px) {
+  .nav .navbar-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 
 /**********************************************************************
 *
@@ -335,7 +341,7 @@ html {
 
 @media screen and (max-width: 600px) {
   iframe {
-    width: 100%; 
-    height: auto; 
+    width: 100%;
+    height: auto;
   }
 }
